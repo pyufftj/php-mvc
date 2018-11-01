@@ -1,6 +1,6 @@
 <?php
 try {
-    $db = new PDO('mysql:host=localhost;dbname=mvc', 'root', 'root');
+    $db = new PDO('mysql:host=localhost;dbname=mvc', 'root', 'xxx');
 } catch (PDOException $e) {
     echo $e->getMessage();
 }
